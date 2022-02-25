@@ -101,7 +101,7 @@ module.exports = {
             if (!isNumber(user.lastmining)) user.lastmining = 0
             if (!isNumber(user.lasthunt)) user.lasthunt = 0
             if (!isNumber(user.lastweekly)) user.lastweekly = 0
-            if (!isNumber(user.lastmonthly)) user.lastmontly = 0
+            if (!isNumber(user.lastmonthly)) user.lastmonthly = 0
             if (!('registered' in user)) user.registered = false
             if (!user.registered) {
                 if (!('name' in user)) user.name = this.getName(m.sender)

@@ -23,18 +23,17 @@ let handler  = async (m, { conn, usedPrefix }) => {
 ⬡ Kami tidak bertanggung jawab atas kebocoran data pribadi anda
 
 
-➥ ${namabot} Versi ${package.version}
-➥ *Yt:* https://www.youtube.com/channel/UCVSEzfCh6VYL3g9ixHnSqXQ
+➥ ShiroBotz Versi ${package.version}
 ➥ *Ping:* ${neww - old} *ms*
 ➥ *Total user:* ${totalreg} *user*
 ➥ *Uptime:* ${uptime}
 
 ═ 〘 DONASI 〙 ═
 ➥ Saweria : https://saweria.co/raraharsita2
-➥ Dana: [0882-7926-8363]
+➥ Dana: [0823-6116-0044]
 
 
-➥ Request? https://www.youtube.com/channel/UCVSEzfCh6VYL3g9ixHnSqXQ
+➥ Request? chat owner : wa.me/6282361160044
 
 Official Grup :
 
@@ -48,8 +47,8 @@ Grup 3 :
 https://chat.whatsapp.com/HAZ6yFgCafUAeDbNH33IrL
 
 
- ©BaseNew ${namabot}
- Script original by King Of Bear
+ © ShiroBotz by Hyzer.
+ Script original by Hyzer
  
  
 ═〘 ${namabot} 〙 ═

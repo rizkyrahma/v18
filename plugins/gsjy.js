@@ -31,7 +31,6 @@ const defaultMenu = {
   footer: '┗━ꕥ\n',
   after: 
 *ShiroBotz@^%version*
-${'```%npmdesc```'}
 `,
 }
 let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
@@ -256,7 +255,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 ┃✾ Ig Owner : shiroo_craziiphat
 ┃✾ *それをやり過ぎないでください*
 ┗━━━━━━━━⬣`.trim(),
-          "buttonText": "Klik Disini",
+          "buttonText": "KLIK DISINI",
           "listType": "SINGLE_SELECT",
           "sections": [
             {

@@ -8,7 +8,7 @@ const chats = conn.chats.all()
 const groups = chats.filter(v => v.jid.endsWith('g.us'))
 const defaultMenu = {
   before: `
-┏━━━ꕥ〔 *${namabot}* 〕ꕥ━⬣
+┏━━━ꕥ〔 *Shiro Botz* 〕ꕥ━⬣
 ┃✾ Hai, %name!
 ┃
 ┃✾ Tersisa *%limit Limit*
@@ -25,8 +25,6 @@ const defaultMenu = {
 ┏━ꕥ
 ┃✾ Uptime: *%uptime (%muptime)*
 ┃✾ Database: %rtotalreg dari %totalreg
-┃✾ Youtube:
-┃✾ https://www.youtube.com/channel/UCVSEzfCh6VYL3g9ixHnSqXQ
 ┗━━━━━━ꕥ`.trimStart(),
   header: '┏━━ꕥ〔 *%category* 〕ꕥ━⬣',
   body: '┃✾%cmd %islimit %isPremium',
@@ -37,8 +35,8 @@ ${'```%npmdesc```'}
 `,
 }
 let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
-	let bzz = fs.readFileSync('./vn/ara-nabila.mp3')
-	let bzz2 = fs.readFileSync('./vn/Geleng.mp3')
+	let bzz = fs.readFileSync('./vn/sound1.mp3')
+	let bzz2 = fs.readFileSync('./vn/sound2.mp3')
 	let { anon, anticall, antispam, antitroli, backup, jadibot, groupOnly, nsfw } = global.db.data.settings[conn.user.jid]
     let totaljadibot = [...new Set([...global.conns.filter(conn => conn.user && conn.state !== 'close').map(conn => conn.user)])]
 
@@ -243,7 +241,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
         "listMessage": {
           "title": `${ucapan()}, ${name}`.trim(),
           "description": `
-┏━━ꕥ〔 *Status* 〕ꕥ━⬣
+┏━━ꕥ〔 *ShiroBotz* 〕ꕥ━⬣
 ┃✾ Aktif selama ${uptime}
 ┃✾ Baterai ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}
 ┃✾ *${Object.keys(global.db.data.users).length}* Pengguna
@@ -253,11 +251,10 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 ┃✾ *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
 ┗━ꕥ
 ┏━ꕥ
-┃✾ Script by King Of Bear
-┃✾ Github Name : https://www.youtube.com/channel/UCVSEzfCh6VYL3g9ixHnSqXQ
-┃✾ Yt : https://www.youtube.com/channel/UCVSEzfCh6VYL3g9ixHnSqXQ
-┃✾ Run bot : Heroku
-┃✾ Tipe SC King Of Bear
+┃✾ Script by Hyzer.
+┃✾ Github Name : https://github.com/Hyzerr
+┃✾ Ig Owner : shiroo_craziiphat
+┃✾ *それをやり過ぎないでください*
 ┗━━━━━━━━⬣`.trim(),
           "buttonText": "Klik Disini",
           "listType": "SINGLE_SELECT",

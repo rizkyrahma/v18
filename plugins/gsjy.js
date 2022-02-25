@@ -29,8 +29,8 @@ const defaultMenu = {
   header: '┏━━ꕥ〔 *%category* 〕ꕥ━⬣',
   body: '┃✾%cmd %islimit %isPremium',
   footer: '┗━ꕥ\n',
-  after: `
-*%npmname@^%version*
+  after: 
+*ShiroBotz@^%version*
 ${'```%npmdesc```'}
 `,
 }

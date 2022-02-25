@@ -67,12 +67,6 @@ handler.all = async function (m, { isBlocked }) {
      json = await res.buffer()
      await conn.sendFile(m.chat, json, 'error.mp3', null, m, true)
     }
-    if (isTes && !m.fromMe) {
-        m.reply(`Iya sayang sudah aktif kok:')`)
-        let res = await fetch(`https://github.com/saipulanuar/Api-Github/raw/main/audio/sayang.mp3`)
-     json = await res.buffer()
-     await conn.sendFile(m.chat, json, 'error.mp3', null, m, true)
-    }
 
     
     // backup db
